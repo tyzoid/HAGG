@@ -1,0 +1,18 @@
+name: HAGG - Hide and Go Gortume
+main: me.C0nsole.HAGG.main
+version: 1.0
+authors: [C0nsole, tyzoid]
+commands:
+   hagg:
+     description: Command that regular users use
+     permission: hagg.user
+   haggadmin:
+     description: Admin command for the plugin
+     permission: hagg.admin
+permissions:
+   hagg.user:
+     description: Allows the use of /hagg and all arguments
+     default: true
+   hagg.admin:
+     description: Allows use of admin /haggadmin and all arguments
+     default: op
