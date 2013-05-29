@@ -1,18 +1,17 @@
-name: HAGG - Hide and Go Gortume
-main: me.C0nsole.HAGG.main
-version: 1.0
-authors: [C0nsole, tyzoid]
+main: me.hgg.main.hgg
+
+version: 0.1
+
+name: Hide and Go Gortume
+
+author: ZeGeorge & C0nsole & TyZoid
+
+description: Hide and Go Gortume is a minigame plugin in which one random person is gortume, and they must proceed to kill everyone else in the game, in less then a configurable time.
+
+
 commands:
-   hagg:
-     description: Command that regular users use
-     permission: hagg.user
-   haggadmin:
-     description: Admin command for the plugin
-     permission: hagg.admin
-permissions:
-   hagg.user:
-     description: Allows the use of /hagg and all arguments
-     default: true
-   hagg.admin:
-     description: Allows use of admin /haggadmin and all arguments
-     default: op
+    haggadmin:
+        description: Admin Command for HAGG
+    hagg:
+        description: Tp to lobby
+    
